@@ -1,0 +1,191 @@
+.container-shop{
+    
+    margin-top: 110px !important;
+    margin-left: 200px;
+    
+    }
+    
+    .card{
+    
+    border: none;
+    
+    outline: none;
+    
+    background-color: #fff;
+    
+    border-radius: 20px;
+    
+    transition: transform 3s;
+    }
+    
+    .card:hover{
+    
+    transform: translateY(-15px);
+    
+    transition: transform .3s;
+    }
+    .text1{
+
+        font-size: 13px;
+    }
+    .info {
+        
+     line-height: 17px;
+    }
+    .cost span{
+        
+        font-weight: bold;
+        
+        font-size: 20px;
+    }
+    .shoe{
+        background: #ff523b;
+    }
+    .watchcost span {
+        
+        font-weight: bold;
+        
+        font-size: 20px;
+    }
+        
+    .watch{
+        background: #ff523b;
+    }
+    .tshirtcost span {
+        
+        font-weight: bold;
+        
+        font-size: 20px;
+    }
+        
+    .tshirt{
+        background: #ff523b;
+    }
+    .tshirt:hover, .watch:hover, .shoe:hover{
+        opacity: .9;
+    }
+    .cursor{
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    .wrapper{
+        position: relative;
+        max-width: 1130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .wrapper .cart-nav{
+        position: absolute;
+        right: 0;
+        top: -35%;
+        width: 130px;
+        background: #fff;
+        padding: 13px 15px;
+        border-radius: 3px;
+        display: flex;
+        cursor: pointer;
+        justify-content: space-evenly;
+        box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.15);
+      }
+      .cart-nav .icon{
+        color: #ff523b;
+      }
+      .cart-nav .icon i{
+        font-size: 20px;
+      }
+      .cart-nav .icon span{
+        font-weight: 500;
+      }
+      .cart-nav .item-count{
+        height: 23px;
+        width: 23px;
+        color: #ff523b;
+        background: #ffcccc;
+        text-align: center;
+        line-height: 22px;
+        border: 1px solid #ffb3b3;
+        border-radius: 50%;
+      }
+      .cart-nav a{
+        text-decoration: none;
+      }
+      .cart-page{
+
+    margin: 80px;
+        
+        }
+        
+       table{
+        
+        width: 100%;
+        
+        border-collapse: collapse;
+        
+        }
+        
+         .cart-info{
+        
+        display: flex;
+        
+        flex-wrap: wrap;
+         }
+       th{
+        text-align: left;
+        
+        padding: 5px;
+        
+        color: #fff;
+        
+        background: #ff523b;
+        font-weight: normal;
+         }
+        td {
+          padding: 10px 5px;
+        }
+        td input{
+          width: 40px;
+          height: 30px;
+          padding: 5px;
+        }
+        td a{
+          color: #ff523b; 
+          font-size: 12px;
+        }
+        td img{
+          width: 80px;
+          height: 80px;
+          margin-right: 10px;
+        }
+        .total-price{
+          display: flex;
+          justify-content: flex-end;
+        }
+        .centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        .total-price table{
+          border-top: 3px solid #ff523b;
+          width: 100%;
+          max-width: 500px;
+        }
+        td:last-child{
+          text-align: right;
+        }
+        th:last-child{
+          text-align: right;
+        }
+        .card .buttons button{
+          width: 100%;
+          padding: 15px 0px;
+          border-radius: 20px;
+          color: #fff;        
+          background: #ff523b;
+          border-color: #ff523b;
+        }
+        button:hover{
+         opacity: .9;
+       }

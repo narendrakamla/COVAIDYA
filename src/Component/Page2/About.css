@@ -1,0 +1,13 @@
+#imghover img.hover {
+    width: 200px;
+    height: 200px;
+}
+
+.sub_section {
+    background-color: #42c17bba;
+    color: white;
+}
+
+.shadow:hover {
+    transform: translateY(-1rem);
+}

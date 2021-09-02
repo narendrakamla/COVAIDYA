@@ -1,0 +1,35 @@
+
+ .navbar-brand img {
+
+ 
+      width:100px;
+      padding-right: 0;
+      padding-left: 0;
+      padding-top: 0;
+      color: inherit;
+
+    }
+    
+
+    .nav_style {
+      z-index: 9999;
+      background-color: #42c17bba;
+    }
+
+    .nav_style a {
+      color: white;
+      font-size:15px;
+      font-family: 'Baloo Da 2', cursive;
+    }
+  
+    #navbarSupportedContent a:hover {
+      background-color: white;
+      color: #42c17bba;
+    }
+
+    .f1
+    {
+  
+    padding-top: 2em;
+    padding-bottom: 2em;
+    }
